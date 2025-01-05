@@ -153,7 +153,7 @@ const Album = () => {
             <img src="/images/previous.png" alt="Previous" />
           </button>
           <button onClick={handlePlayPause} className="pause-button">
-            <img src={isPlaying ? "/images/pause.png" : "/images/playy.png"} alt={isPlaying ? "Pause" : "Play"} />
+            <img src={isPlaying ? "/images/playy.png" : "/images/pause.png"} alt={isPlaying ? "Pause" : "Play"} />
           </button>
           <button onClick={handleNext} className="next-button">
             <img src="/images/next.png" alt="Next" />
